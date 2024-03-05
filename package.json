@@ -1,0 +1,27 @@
+{
+	"private": true,
+	"description": "AFCEDS",
+	"repository": {
+		"type": "git",
+		"url": "https://repo.bespin.cce.af.mil/bespin/products/afceds/bespin-afceds.git"
+	},
+	"type": "module",
+	"scripts": {
+		"compile": "tsc",
+		"dev": "npm run compile && node ./dist/app.js"
+	},
+	"author": "Austin Gardner",
+	"name": "typescript",
+	"version": "1.0.0",
+	"main": "index.js",
+	"keywords": [],
+	"license": "ISC",
+	"dependencies": {
+		"@apollo/server": "^4.10.0",
+		"graphql": "^16.8.1"
+	},
+	"devDependencies": {
+		"@types/node": "^20.11.24",
+		"typescript": "^5.3.3"
+	}
+}
